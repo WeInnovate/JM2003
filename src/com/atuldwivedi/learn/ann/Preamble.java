@@ -14,7 +14,7 @@ public @interface Preamble {
 	
 	String author();
 
-	String[] trainee();
+	String[] trainee() default {};
 
 	double version();
 }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+<form action="register" method="POST">
+	<table>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" placeholder="Enter name" name="name" /></td>
+		</tr>
+
+		<tr>
+			<td>Username</td>
+			<td><input type="email" placeholder="Enter user name"
+				name="userName" /></td>
+		</tr>
+
+		<tr>
+			<td>Password</td>
+			<td><input type="password" placeholder="Enter password"
+				name="pass" /></td>
+		</tr>
+
+		<tr>
+			<td>Mobile</td>
+			<td><input type="number" placeholder="Enter mobile number"
+				name="mobile" /></td>
+		</tr>
+
+		<tr>
+			<td>Gender</td>
+			<td>Male: &nbsp; <input type="radio" name="gender" value="Male" />
+				&nbsp;&nbsp; Female: &nbsp; <input type="radio" name="gender"
+				value="Female" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>Courses</td>
+			<td>Core Java:&nbsp;<input type="checkbox" name="courses"
+				value="Core Java" /> <br> Adv Java:&nbsp;<input
+				type="checkbox" name="courses" value="Adv Java" /> <br> Java
+				Frameworks:&nbsp;<input type="checkbox" name="courses"
+				value="Java Frameworks" /> <br>
+			</td>
+		</tr>
+
+		<tr>
+			<td>City</td>
+			<td><select name="city">
+					<option value="NoValue">--Select--</option>
+					<option selected="selected" value="Bengaluru">Bengaluru</option>
+					<option value="Chennai">Chennai</option>
+			</select></td>
+		</tr>
+
+		<tr>
+			<td>Address</td>
+			<td>
+			<textarea rows="5" cols="50" name="address" ></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><input type="reset" value="Reset It"> </td>
+			<td>
+			<input type="submit" value="Register Me">
+			</td>
+		</tr>
+
+	</table>
+	</form>
+</body>
+</html>
