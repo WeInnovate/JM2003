@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class RegisterServlet
  */
-@WebServlet({ "/register", "/registerMe" })
+@WebServlet({ "/registration", "/registerMe" })
 public class RegisterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

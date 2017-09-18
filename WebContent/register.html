@@ -2,76 +2,104 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Registration Page</title>
+<title>Register</title>
 </head>
 <body>
-<form action="register" method="POST">
-	<table>
-		<tr>
-			<td>Name</td>
-			<td><input type="text" placeholder="Enter name" name="name" /></td>
-		</tr>
+	<div style="width: 100%; float: left;">
+		<!-- Header -->
+		<div style="width: 100%; float: left;">
+			<!-- <img src="resources/images/registration-header.jpg" width="100%"
+				height="100px"> -->
+				&nbsp;
+		</div>
+		<!-- //Header -->
 
-		<tr>
-			<td>Username</td>
-			<td><input type="email" placeholder="Enter user name"
-				name="userName" /></td>
-		</tr>
+		<!-- Main -->
+		<div style="width: 100%; float: left; height: 600px">
 
-		<tr>
-			<td>Password</td>
-			<td><input type="password" placeholder="Enter password"
-				name="pass" /></td>
-		</tr>
+			<!-- Left -->
+			<div style="width: 10%; float: left;">&nbsp;</div>
+			<!-- //Left -->
 
-		<tr>
-			<td>Mobile</td>
-			<td><input type="number" placeholder="Enter mobile number"
-				name="mobile" /></td>
-		</tr>
+			<!-- Middle -->
+			<div style="width: 80%; float: left;" align="center">
+				<h1>Register!</h1>
+				<form action="register" method="post">
+				<table>
+					<tr>
+						<td>Name</td>
+						<td><input type="text" name="name" placeholder="Enter name" /></td>
+					</tr>
+					<tr>
+						<td>Mobile</td>
+						<td><input type="number" name="num" placeholder="Enter name" /></td>
+					</tr>
 
-		<tr>
-			<td>Gender</td>
-			<td>Male: &nbsp; <input type="radio" name="gender" value="Male" />
-				&nbsp;&nbsp; Female: &nbsp; <input type="radio" name="gender"
-				value="Female" />
-			</td>
-		</tr>
+					<tr>
+						<td>User Name</td>
+						<td><input type="email" name="email" placeholder="Enter username" /></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td><input type="password" name="pass" placeholder="Enter password" /></td>
+					</tr>
+					<tr>
+						<td>Confirm Password</td>
+						<td><input type="password" placeholder="Enter password" /></td>
+					</tr>
 
-		<tr>
-			<td>Courses</td>
-			<td>Core Java:&nbsp;<input type="checkbox" name="courses"
-				value="Core Java" /> <br> Adv Java:&nbsp;<input
-				type="checkbox" name="courses" value="Adv Java" /> <br> Java
-				Frameworks:&nbsp;<input type="checkbox" name="courses"
-				value="Java Frameworks" /> <br>
-			</td>
-		</tr>
 
-		<tr>
-			<td>City</td>
-			<td><select name="city">
-					<option value="NoValue">--Select--</option>
-					<option selected="selected" value="Bengaluru">Bengaluru</option>
-					<option value="Chennai">Chennai</option>
-			</select></td>
-		</tr>
+					<tr>
+						<td>Gender</td>
+						<td><span><input type="radio" value="Female" name="gender" />Female
+								| <input type="radio" value="Male" name="gender" />Male</span></td>
+					</tr>
 
-		<tr>
-			<td>Address</td>
-			<td>
-			<textarea rows="5" cols="50" name="address" ></textarea>
-			</td>
-		</tr>
-		
-		<tr>
-			<td><input type="reset" value="Reset It"> </td>
-			<td>
-			<input type="submit" value="Register Me">
-			</td>
-		</tr>
 
-	</table>
-	</form>
+					<tr>
+						<td>Courses</td>
+						<td><span><input type="checkbox" value="Java M1"
+								name="courses" />Java M1 | <input type="checkbox"
+								value="Java M2" name="courses" />Java M2 | <input
+								type="checkbox" value="Java M3" name="courses" />Java M3</span></td>
+					</tr>
+
+					<tr>
+						<td>Highest Qualification</td>
+						<td><select name="qual">
+								<option>--Select---</option>
+								<option>M. Tech.</option>
+								<option>MCA</option>
+								<option selected="selected">B. Tech.</option>
+								<option>BCA</option>
+						</select></td>
+					</tr>
+
+					<tr>
+						<td>Comment</td>
+						<td><textarea name="comment" rows="" cols=""></textarea></td>
+					</tr>
+
+					<tr>
+						<td><input type="reset" /></td>
+						<td><input type="submit" value="Register" /></td>
+					</tr>
+				</table>
+				</form>
+			</div>
+			<!-- //Middle -->
+
+			<!-- Right -->
+			<div style="width: 10%; float: left;">&nbsp;</div>
+			<!-- //Right -->
+		</div>
+		<!-- //Main -->
+
+		<!-- Footer -->
+		<div style="width: 100%; float: left;" align="center">
+			<span>&copy; 2017</span>
+		</div>
+		<!-- //Footer -->
+	</div>
 </body>
 </html>
