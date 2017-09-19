@@ -5,7 +5,13 @@
 <title>Welcome Page</title>
 </head>
 <body>
-<h1>JSP Home Page</h1>
-<a href="user-name-input-page.jsp">User Name Input Page</a>
+	<h1>JSP Home Page</h1>
+	<a href="user-name-input-page.jsp">User Name Input Page</a>
+	<br>
+	<a href="sum.jsp">Sum</a>
+	<br>
+	<a href="login.jsp">Login</a>
+	<br>
+	<a href="registration.jsp">Registration</a>
 </body>
 </html>
