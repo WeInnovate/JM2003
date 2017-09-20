@@ -11,11 +11,16 @@
 		String un = request.getParameter("username");
 		String p = request.getParameter("pass");
 
-		if (un.equals(p)) {
-			out.print("You are a valid user");
-		} else {
-			out.print("You are not a valid user");
+		if (!un.equals(p)) {
+			/* out.print("You are a valid user"); */
+			response.sendRedirect("login.jsp");
+
 		}
 	%>
+
+	<jsp:forward page="profile.jsp">
+		<jsp:param value="Atul" name="userName" />
+	</jsp:forward>
+
 </body>
 </html>
