@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<img src="resources/images/registration-header.jpg" width="100%"
+				height="100px">
+				<br>
+				<%= request.getParameter("un") %>
+<hr>
+</body>
+</html>

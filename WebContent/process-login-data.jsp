@@ -19,7 +19,8 @@
 	%>
 
 	<jsp:forward page="profile.jsp">
-		<jsp:param value="Atul" name="userName" />
+		<jsp:param value="${param.username}" name="userName" />
+		<jsp:param value="Atul" name="trainerName"/>
 	</jsp:forward>
 
 </body>
