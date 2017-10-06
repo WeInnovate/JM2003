@@ -13,5 +13,15 @@
 	<a href="login.jsp">Login</a>
 	<br>
 	<a href="registration.jsp">Registration</a>
+	
+	<h1>Actions</h1>
+	<h2>Use Bean</h2>
+	<br>
+	<a href="std-registration.jsp">Registration</a>
+	
+	
+	<h2>Expression Language</h2>
+	<br>
+	<a href="registration-and-el.html">Registration</a>
 </body>
 </html>
